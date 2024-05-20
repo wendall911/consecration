@@ -25,6 +25,7 @@ import com.illusivesoulworks.consecration.common.config.ConsecrationConfig;
 import com.illusivesoulworks.consecration.common.impl.HolySources;
 import com.illusivesoulworks.consecration.common.integration.AbstractCompatibilityModule;
 import com.illusivesoulworks.consecration.common.integration.SilentGearModule;
+import com.illusivesoulworks.consecration.common.integration.TConstructModule;
 import com.illusivesoulworks.consecration.common.integration.TetraModule;
 import com.illusivesoulworks.consecration.common.integration.WerewolvesModule;
 import com.illusivesoulworks.consecration.common.network.ConsecrationNetwork;
@@ -72,6 +73,7 @@ public class ConsecrationForgeMod {
     MODULES.put("tetra", TetraModule.class);
     MODULES.put("werewolves", WerewolvesModule.class);
     MODULES.put("silentgear", SilentGearModule.class);
+    MODULES.put("tconstruct", TConstructModule.class);
   }
 
   public ConsecrationForgeMod() {

@@ -105,6 +105,7 @@ dependencies {
 
     compileOnly fg.deobf("curse.maven:tetra-289712:4618612")
     compileOnly fg.deobf("curse.maven:silentgear-297039:4585760")
+    compileOnly fg.deobf("curse.maven:tconstruct-74072:5358052")
 
     implementation fg.deobf(group: 'com.illusivesoulworks.spectrelib', name: 'spectrelib-forge', version: "${spectrelib_range}")
     jarJar fg.deobf(group: 'com.illusivesoulworks.spectrelib', name: 'spectrelib-forge', version: "${spectrelib_range}") {
